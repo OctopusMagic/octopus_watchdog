@@ -1,0 +1,11 @@
+<configuration>
+	<!-- ID of the service. It should be unique accross the Windows system-->
+	<id>OCTOPUS-WATCHDOG-SERVICE</id>
+	<!-- Display name of the service -->
+	<name>Servicio Octopus Watchdog</name>
+	<!-- Service description -->
+	<description>Servicio para leer archivos y procesarlos con Octopus</description>
+
+	<!-- we need to execute INICIAR_SERVICIO.bat -->
+	<executable>INICIAR_SERVICIO.bat</executable>
+</configuration>
